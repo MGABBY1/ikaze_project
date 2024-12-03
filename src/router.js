@@ -20,6 +20,7 @@ import SouthernView from './views/Provinces/SouthernView.vue'
 import KigaliCityView from './views/Provinces/Kigali cityView.vue'
 import ContactUsView from './views/ContactUsView.vue'
 import GuideView from './views/GuideView.vue'
+import TestView from './views/test.vue'
 
 const routes = [
   { path: '/', component: HomeView, name: "home" },
@@ -43,7 +44,9 @@ const routes = [
   { path: '/PROVINCES/WesternView', component: WesternView, name: "western"},
   { path: '/PROVINCES/NorthernView', component: NorthernView, name: "northern"},
   { path: '/PROVINCES/SouthernView', component: SouthernView, name: "southern"},
-  { path: '/PROVINCES/kigali cityView', component: KigaliCityView, name: "kigali city"}
+  { path: '/PROVINCES/kigali cityView', component: KigaliCityView, name: "kigali city"},
+
+  { path: '/test', component: TestView}
 
 
 

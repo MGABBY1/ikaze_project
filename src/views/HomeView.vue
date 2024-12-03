@@ -11,7 +11,7 @@
     <div class="absolute inset-0 flex flex-col items-center justify-center">
         <p><router-link :to="{ name: 'homePageForm'}" class="text-5xl text-black font-bold">Click here</router-link></p>
 
-        <p class="text-xl text-black mt-9">We help you to save your time!</p>
+        <p class="text-xl text-white mt-9">We help you to save your time!</p>
     </div>
 </div>
 
