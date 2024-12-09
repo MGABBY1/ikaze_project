@@ -1,8 +1,8 @@
-<template>
+c<template>
     <div class="flex items-center justify-center flex-col w-full">
         <div class="flex w-full items-center w-full">
             <header class="bg-green-600 sticky w-full">
-                <div class=" py-7 ">
+                <div class=" py-4 ">
                     
     
                     <div class="flex md:hidden">
@@ -28,7 +28,7 @@
 
     
         <div class="bg-[#243c5a] w-full p-4 h-50">
-            <div class="w-full grid grid-rows-3">
+            <div class="w-full grid grid-rows-2">
                 <div class="flex justify-between py-4 row-span-1">
                         
                     <div class="w-1/4">
@@ -54,7 +54,7 @@
                     </ul>
                 </div>
 
-                <div class="flex flex-1 items-center justify-center p-5">
+                <div class="flex flex-1 items-center justify-center p-7">
                     <div class="w-full max-w-4xl">
                         <form class="mt-1/2 sm:flex sm:items-center">
                             <input id="q" name="q" class="inline w-full rounded-md border border-gray-300 bg-white py-3 pl-3 pr-3 leading-5 placeholder-gray-500 focus:border-indigo-500 focus:placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm" placeholder="Searching Service" type="search" autofocus="" value="">
@@ -301,12 +301,9 @@ let cells = [
 ]
 // let sectors 
 
-
-
-
 function changeColor(){
     let button = document.getElementById('change-button');
-    let colors = ["red", "blue", "green", "yellow", "pink", "purple", "gray"];  //Add more colors from tailwind design pallete as per requirement
+    let colors = ["red", "blue", "green", "yellow", "pink", "purple", "gray"]; 
     let color = colors[Math.floor(Math.random() * colors.length)]; 
     button.className = '';  
     button.classList.add('px-4', 'py-2','rounded-lg','text-white',`bg-${color}-500`);
@@ -315,6 +312,5 @@ function changeColor(){
 setInterval(() => {
     changeColor();
 }, 500);    //Color change duration is 500 ms, you can adjust the duration.
-
 
 </script>

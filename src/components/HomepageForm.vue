@@ -49,7 +49,6 @@
     </div>
 
 
-
 <div class="flex flex-col max-h-screen">
     <main class="flex-grow">
     <!-- Content goes here -->
@@ -86,10 +85,10 @@
 <script setup>
 import { ref } from 'vue'
 const names = ref([
-    "Kigembe",
-    "Mamba",
-    "Muganza",
-    "Mugombwa",
+    "PROVINCES",
+    "DISTRICTS",
+    "SECTORS",
+    "CELLS",
     "Mukindo",
     "Mwendo",
 ])
