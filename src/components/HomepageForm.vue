@@ -92,4 +92,12 @@ const names = ref([
     "Mukindo",
     "Mwendo",
 ])
+
+const variable = ref([
+    "test",
+    "test1",
+    "test2"
+])
+
+
 </script>

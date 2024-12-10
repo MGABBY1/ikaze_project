@@ -1,61 +1,18 @@
 <template>
-    
-    
     <div class="flex items-center justify-center flex-col w-full">
-        <div class="flex w-full items-center w-full">
-            <header class="bg-green-600 sticky w-full">
-                <div class=" py-4 ">
-                    
-    
-                    <div class="flex md:hidden">
-                        <button id="hamburger" class="text-white focus:-none">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                        </svg>
-                        </button>
-                    </div>
+         <div class="flex w-full items-center w-full">
+           </div>
 
-                  
-                    <span class="flex item-center justify-center">
-                         
-                     <marquee> <a href="#home" class="text-white hover:text-secondary font-bold">WELCOME TO RWANDA LOCAL GOVERNMENT RESERVATION!</a> </marquee>
-              
-                  
-                    </span>
-
-
-                </div>
-            </header>
-        </div>
-
-        <section class="w-full">
+    <section class="w-full">
     <div class="w-full h-[520px] bg-[url('https://images.unsplash.com/photo-1449844908441-8829872d2607?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxob21lfGVufDB8MHx8fDE3MTA0MDE1NDZ8MA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center ">
     <!-- Photo by '@insolitus' on Unsplash -->
-        <div>
-            <h1 class="text-white text-center xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl font-semibold bg-gray-800 p-2 bg-opacity-40 rounded-sm">Discover Your New Home</h1>
-        </div>
-        <div class="w-full mx-auto">
-            <form>
-                <div class="xl:w-1/2 lg:w-[60%] md:w-[70%] sm:w-[70%] xs:w-[90%] mx-auto flex gap-2 md:mt-6 xs:mt-4 mx-4">
-                    <input type="text" class="border border-gray-400 w-full p-2 rounded-md text-xl pl-2"
-                            placeholder="" />
-                    <button type="submit" class="px-[10px] p-[10px] bg-blue-500 text-lg text-white rounded-md font-semibold">Search</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-        <div class="bg-[#243c5a] w-full p-4 h-50">
+
+   
+  
+    <div class="w-full p-4 h-50">
             <div class="w-full grid grid-rows-2">
                 <div class="flex justify-between py-4 row-span-1">
-                        
-                    <div class="w-1/4">
-                        <div class="flex items-center justify-center col-span-1 ">
-                            <button id="change-button" class="bg-red-500 text-white px-4 py-2 rounded-lg ">
-                                <router-link :to="{ name: 'home'}" class="text-2xl">IKAZE RESERVATION rw</router-link>
-                            </button>
-                        </div>
-                    </div>
+                    <div class="flex items-center justify-center col-span-1 "></div>
 
                     <ul class="flex gap-16 text-white">
                         <router-link :to="{ name: 'login'}" class="font-bold hover:text-red-700">Login</router-link>
@@ -73,6 +30,39 @@
              </div>
           </div>
             
+    
+            <div class="w-full grid grid-rows-2">
+                <div class="flex justify-between py-4 row-span-1">
+                        
+                    <div class="w-1/4">
+                        <div class="flex items-center justify-center col-span-1 ">
+                            <button id="change-button" class="bg-red-500 text-white px-4 py-2 rounded-lg  ">
+                                <router-link :to="{ name: 'home'}" class="text-2xl">IKAZE RESERVATION rw</router-link>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+
+
+
+
+        <div>
+            <h1 class="text-white text-center xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl font-semibold bg-gray-800 p-2 bg-opacity-40 rounded-sm">  YOU CAN SEE GUIDES INFORMATION HERE!</h1>
+        </div>
+        <div class="w-full mx-auto">
+            <form>
+                <div class="xl:w-1/2 lg:w-[60%] md:w-[70%] sm:w-[70%] xs:w-[90%] mx-auto flex gap-2 md:mt-6 xs:mt-4 mx-4">
+                    <input type="text" class="border border-gray-400 w-full p-2 rounded-md text-xl pl-2"
+                            placeholder="" />
+                    <button type="submit" class="px-[10px] p-[10px] bg-blue-500 text-lg text-white rounded-md font-semibold">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+       
             
         <div>
             <div class="text-gray-600 dark:text-gray-300 pt-8 dark:bg-gray-900" id="reviews">
