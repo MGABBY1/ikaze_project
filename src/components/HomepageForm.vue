@@ -41,6 +41,27 @@
                                 </div>
                             </details>
                         </li>
+                        <li>
+                            <details class="mb-2">
+                                <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
+                                    <span class="font-semibold">Nested Dropdown 4</span>
+                                </summary>
+                                <div class="bg-white p-4">
+                                    <p class="text-gray-800">Content for Nested Dropdown 4</p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="mb-2">
+                                <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
+                                    <span class="font-semibold">Nested Dropdown 5</span>
+                                </summary>
+                                <div class="bg-white p-4">
+                                    <p class="text-gray-800">Content for Nested Dropdown 5</p>
+                                </div>
+                            </details>
+                        </li>
+                            
                     </ul>
                 </details>
 
@@ -49,31 +70,13 @@
     </div>
 
 
-<div class="flex flex-col max-h-screen">
+    <div class="flex flex-col min-h-screen">
     <main class="flex-grow">
-    <!-- Content goes here -->
+        <!-- Content goes here -->
     </main>
-    <footer class="bg-gray-800 text-white py-2/5">
-        <div class="container mx-auto text-center"> 
-            <div class="flex justify-center space-x-5">
-                <p>&copy; 2024 My Website. All rights reserved.</p> 
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
-                </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
-                </a>
-                <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
-                
-                </a>
-            </div>
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
         </div>
     </footer>
 </div>
@@ -96,7 +99,9 @@ const names = ref([
 const variable = ref([
     "test",
     "test1",
-    "test2"
+    "test2",
+    "test2",
+    
 ])
 
 

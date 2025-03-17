@@ -28,7 +28,7 @@
                     </ul>
                 </div>
              </div>
-          </div>
+          </div> 
             
     
             <div class="w-full grid grid-rows-2">
